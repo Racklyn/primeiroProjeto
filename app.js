@@ -5,3 +5,7 @@ let res = document.getElementById("resposta")
 function somar(){
     res.textContent = Number(v1.value) + Number(v2.value);
 }
+
+function multiplicar() {
+    res.textContent = Number(v1.value) * Number(v2.value);
+}
