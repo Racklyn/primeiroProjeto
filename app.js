@@ -9,3 +9,7 @@ function somar(){
 function multiplicar() {
     res.textContent = Number(v1.value) * Number(v2.value);
 }
+
+function subtrair(){
+    res.textContent = Number(v1.value) - Number(v2.value);
+}
