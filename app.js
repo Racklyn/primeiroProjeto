@@ -13,3 +13,7 @@ function multiplicar() {
 function subtrair(){
     res.textContent = Number(v1.value) - Number(v2.value);
 }
+
+function dividir(){
+    res.textContent = Number(v1.value) / Number(v2.value);
+}
